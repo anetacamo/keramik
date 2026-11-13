@@ -1,0 +1,12 @@
+{
+  "name": "blog-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd image-server && npx tsx server.ts",
+    "client": "cd anetacamo && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

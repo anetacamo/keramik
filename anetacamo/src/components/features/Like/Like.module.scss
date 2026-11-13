@@ -1,0 +1,40 @@
+.like {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.floating {
+  position: absolute;
+  bottom: var(--space-lg);
+  right: var(--space-lg);
+  background: var(--bg);
+  color: var(--text);
+  padding: var(--space-xs) var(--space);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+
+  &:hover {
+    opacity: 1;
+    background-color: var(--purple);
+    color: white;
+    transition:
+      background var(--transition),
+      color var(--transition);
+
+    .popover {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

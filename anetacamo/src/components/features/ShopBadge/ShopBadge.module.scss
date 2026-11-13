@@ -1,0 +1,48 @@
+.shoppingInfo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: var(--space-lg);
+  right: var(--space-lg);
+  background: var(--bg);
+  padding: var(--space-xs) var(--space);
+  border-radius: var(--border-radius);
+  gap: var(--space-xs);
+  color: var(--text);
+  font-size: var(--font-size);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--gray);
+    transition:
+      background var(--transition),
+      color var(--transition);
+    color: var(--purple);
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.shoppingInfoText {
+  text-align: right;
+}
+
+.shopIcon {
+  position: relative;
+
+  img {
+    width: 26px !important;
+    height: 26px !important;
+    filter: brightness(0);
+  }
+}
+
+.inCart {
+  background-color: var(--purple);
+  color: white;
+
+  img {
+    filter: brightness(0) invert(1);
+  }
+}

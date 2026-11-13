@@ -1,0 +1,39 @@
+.cartSummary {
+  text-align: left;
+}
+
+.title {
+  text-decoration: underline;
+  margin-bottom: var(--space);
+}
+
+.list {
+  padding: 0;
+
+  li {
+    list-style: none;
+    padding-left: 18px;
+    line-height: 1.8;
+    position: relative;
+
+    &::before {
+      content: "+";
+      font-weight: 100;
+      font-size: 20px;
+      color: var(--blue);
+      margin-right: var(--space);
+      position: absolute;
+      top: -6px;
+      left: 0;
+    }
+  }
+}
+
+.total {
+  font-weight: 600;
+  margin-top: var(--space);
+}
+
+.hint {
+  margin-top: var(--space);
+}

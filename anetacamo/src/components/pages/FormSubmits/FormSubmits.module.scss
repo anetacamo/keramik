@@ -1,0 +1,58 @@
+.formList {
+  max-width: 600px;
+}
+
+.submissionItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.bagIcon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  filter: brightness(0);
+
+  [data-theme="dark"] & {
+    filter: brightness(0) invert(1);
+  }
+}
+
+.bagIconWrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.message {
+  margin: var(--space-xs) 0;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
+.action,
+.deleteAction,
+.activeStatus {
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+.deleteAction {
+  color: var(--text);
+  opacity: 0.5;
+}
+
+.activeStatus {
+  font-weight: bold;
+  color: var(--accent);
+  text-decoration: none;
+}

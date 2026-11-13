@@ -1,0 +1,35 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: var(--space);
+  cursor: pointer;
+}
+
+.toggle {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  border-radius: var(--border-radius);
+  background: var(--text);
+  opacity: 0.3;
+  transition: opacity 0.2s;
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+.knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: var(--border-radius);
+  background: var(--bg);
+  transition: left 0.2s;
+
+  .active & {
+    left: 18px;
+  }
+}

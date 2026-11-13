@@ -1,0 +1,27 @@
+.contactForm {
+  max-width: 400px;
+  margin: auto;
+}
+
+.inputGroup {
+  display: flex;
+  gap: var(--space);
+  margin: var(--space-2xl) 0;
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.successMessage {
+  color: var(--accent);
+  font-weight: bold;
+  text-align: center;
+  margin: var(--space-2xl) 0;
+}
+
+.errorMessage {
+  color: var(--pink);
+  text-align: center;
+}

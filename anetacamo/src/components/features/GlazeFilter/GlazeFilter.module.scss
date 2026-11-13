@@ -1,0 +1,31 @@
+.glazeFilter {
+  display: flex;
+  align-items: center;
+  gap: var(--space);
+  flex-wrap: wrap;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: transform 0.2s;
+  position: relative;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &.active::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: var(--border-radius);
+    background: black;
+    transform: translate(-50%, -50%);
+  }
+}

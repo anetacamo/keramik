@@ -1,0 +1,25 @@
+.blogContainer {
+  max-width: 480px;
+  margin: auto;
+  padding: var(--space-lg) var(--space-lg) 0;
+}
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+}
+
+// .blog {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.blog img {
+  width: 100%;
+}
+
+.textContainer {
+  justify-content: space-between;
+  display: flex;
+  padding: var(--space-xs) 0 var(--space-lg);
+}

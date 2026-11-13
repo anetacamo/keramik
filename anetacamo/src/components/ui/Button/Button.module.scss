@@ -1,0 +1,46 @@
+.button {
+  padding: var(--padding);
+  border: var(--border-width) dashed var(--pink);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: var(--font-size);
+  letter-spacing: var(--letter-spacing-l);
+  font-weight: var(--font-weight);
+  font-family: var(--font);
+
+  &:hover,
+  &.active {
+    background: var(--pink);
+    border-color: var(--pink);
+    color: white;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.noStyles {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "01",
+    "name": "aneta",
+    "email": "mail2@hello.com",
+    "message": "helloooooo",
+    "type": "post",
+    "cartItems": [
+      {
+        "blogId": "58",
+        "title": "Cup with round bottom",
+        "image": "37.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "57",
+        "title": "Coiled sculptured base for the cup",
+        "image": "36.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "48",
+        "title": "Blue big teapot",
+        "image": "92.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "42",
+        "title": "Medium plant pot with animal decor and wavy rim",
+        "image": "97.png",
+        "price": "200dkk"
+      }
+    ],
+    "createdAt": "2026-05-30T10:24:25.412Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "02",
+    "name": "Tine",
+    "email": "mail@hello.com",
+    "message": "I want all of these! thanks.",
+    "type": "post",
+    "cartItems": [
+      {
+        "blogId": "48",
+        "title": "Blue big teapot",
+        "image": "92.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "42",
+        "title": "Medium plant pot with animal decor and wavy rim",
+        "image": "97.png",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "43",
+        "title": "Teal carved plate",
+        "image": "96.png",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "44",
+        "title": "Big brown cup with carvings",
+        "image": "49.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "50",
+        "title": "Footed pot with animal decor",
+        "image": "95.png",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "49",
+        "title": "Round big mug with donut bottom and holder",
+        "image": "60.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "54",
+        "title": "Egg breakfast holders",
+        "image": "28.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "55",
+        "title": "Black sculptural loop form",
+        "image": "33.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "60",
+        "title": "Wobbly cup with line sculpturing",
+        "image": "38.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "63",
+        "title": "Small white tea cup from black clay",
+        "image": "50.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "37",
+        "title": "Flat white cup with handle made of balls",
+        "image": "27.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "36",
+        "title": "Mint cup without a hadle",
+        "image": "39.jpg",
+        "price": "200dkk"
+      }
+    ],
+    "createdAt": "2026-06-01T15:48:55.014Z",
+    "status": "unresolved"
+  },
+  {
+    "id": "1780336412500",
+    "name": "Line",
+    "email": "line@hotmail.com",
+    "message": "Hey I can do Monday or Thursday, thank you!",
+    "type": "pickup",
+    "cartItems": [
+      {
+        "blogId": "25",
+        "title": "Shallow bowl with two big handles",
+        "image": "40.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "21",
+        "title": "Small Mat Blue cup with long handle",
+        "image": "29.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "20",
+        "title": "Tall wine cup with foot and the lid",
+        "image": "91.jpg",
+        "price": "200dkk"
+      }
+    ],
+    "status": "unresolved",
+    "createdAt": "2026-06-01T17:53:32.500Z"
+  },
+  {
+    "id": "1780338926000",
+    "name": "Trine",
+    "email": "trine@hotmail.com",
+    "message": "Hey I can do Monday or Thursday, thank you! Or possibly can do any of the following Wednesdays, every second week in the third month. except week 12, 22, 32 or 50. 51 is possible if it wont be raining in on Tuesday. Kind regards",
+    "type": "pickup",
+    "cartItems": [
+      {
+        "blogId": "25",
+        "title": "Shallow bowl with two big handles",
+        "image": "40.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "20",
+        "title": "Tall wine cup with foot and the lid",
+        "image": "91.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "10",
+        "title": "Snake latte scaly square cup with a handle",
+        "image": "17.webp",
+        "price": "200dkk"
+      }
+    ],
+    "status": "shipped",
+    "createdAt": "2026-06-01T18:35:26.000Z"
+  },
+  {
+    "id": "1780340798274",
+    "name": "Stine",
+    "email": "stine@hotmail.com",
+    "message": "Heya would love to buy those! thank you",
+    "type": "pickup",
+    "cartItems": [
+      {
+        "blogId": "25",
+        "title": "Shallow bowl with two big handles",
+        "image": "40.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "20",
+        "title": "Tall wine cup with foot and the lid",
+        "image": "91.jpg",
+        "price": "200dkk"
+      },
+      {
+        "blogId": "10",
+        "title": "Snake latte scaly square cup with a handle",
+        "image": "17.webp",
+        "price": "200dkk"
+      }
+    ],
+    "status": "unresolved",
+    "createdAt": "2026-06-01T19:06:38.275Z"
+  }
+]

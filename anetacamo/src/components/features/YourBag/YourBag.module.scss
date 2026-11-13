@@ -1,0 +1,50 @@
+.cartItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space);
+  justify-content: center;
+  margin-top: var(--space-3xl);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space);
+  text-align: left;
+  width: 160px;
+  img {
+    height: 200px;
+    width: 160px;
+    object-fit: cover;
+  }
+}
+
+.cartItemInfo {
+  flex: 1;
+  overflow: hidden;
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.cartItemDesc {
+  display: flex;
+  gap: var(--space);
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: inherit;
+  &:hover {
+    color: var(--pink);
+    background: none;
+  }
+}

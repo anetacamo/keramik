@@ -1,0 +1,17 @@
+.gate {
+  max-width: 400px;
+  margin: var(--space-2xl) auto;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  gap: var(--space);
+  justify-content: center;
+  margin-top: var(--space-xl);
+}
+
+.error {
+  color: var(--pink);
+  margin-top: var(--space);
+}

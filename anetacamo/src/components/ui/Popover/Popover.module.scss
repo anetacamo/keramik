@@ -1,0 +1,28 @@
+.popover {
+  position: absolute;
+  right: 0;
+  background: var(--text);
+  color: var(--bg);
+  padding: var(--space-xs) var(--space);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(var(--space-xs));
+  transition:
+    opacity var(--transition),
+    transform var(--transition);
+}
+
+.top {
+  top: auto;
+  bottom: calc(100% + var(--space-xs));
+  transform: translateY(var(--space-xs));
+}
+
+.bottom {
+  top: calc(100% + var(--space-xs));
+  bottom: auto;
+  transform: translateY(calc(-1 * var(--space-xs)));
+}

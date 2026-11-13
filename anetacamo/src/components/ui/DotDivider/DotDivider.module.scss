@@ -1,0 +1,27 @@
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.dot {
+  height: 32px;
+  width: 32px;
+  margin: var(--space);
+  cursor: pointer;
+  flex: none !important;
+  background-image: url(/images/profile.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &.active {
+    filter: invert(19%) sepia(70%) saturate(6155%) hue-rotate(299deg)
+      brightness(114%) contrast(128%);
+    cursor: default;
+    transition-duration: 350ms;
+  }
+  &:hover {
+    filter: invert(1);
+  }
+}

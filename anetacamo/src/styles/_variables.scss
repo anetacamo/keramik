@@ -1,0 +1,75 @@
+:root {
+  --border-width: 2px;
+  --border-radius: 0.25rem;
+
+  --font: "Violet Sans", "Inter", system-ui, sans-serif;
+
+  --letter-spacing-l: 1px;
+  --letter-spacing: 0.4px;
+  --letter-spacing-xl: 3px;
+
+  --font-size: 11px;
+  --font-weight: 300;
+
+  --space-xs: 4px;
+  --space-sm: 6px;
+  --space: 8px;
+  --space-lg: 12px;
+  --space-xl: 16px;
+  --space-2xl: 32px;
+  --space-3xl: 48px;
+  --space-4xl: 80px;
+
+  --logo-height: var(--space-3xl);
+  --padding: var(--space-lg);
+  --padding-button: var(--space) var(--space-xl);
+  --transition: 0.35s ease;
+}
+
+/*colors*/
+
+$pink: #ff00f7;
+$blue: #72ffd2;
+$purple: #4f18d9;
+$gray: #ededed;
+$darkgray: #282828;
+
+:root {
+  --pink: #ff00f7;
+  --blue: #72ffd2;
+  --purple: #4f18d9;
+  --gray: #ededed;
+  --darkgray: #282828;
+
+  --text: black;
+  --accent: var(--purple);
+  --bg: white;
+  --bg-button: var(--gray);
+  --border: var(--gray);
+}
+
+[data-theme="dark"] {
+  --text: white;
+  --accent: var(--pink);
+  --bg: black;
+  --bg-button: var(--gray);
+  --border: var(--gray);
+}
+
+$colors: "pink", "blue", "purple", "gray", "dark";
+
+@each $color in $colors {
+  .#{$color} {
+    color: var(--#{$color});
+  }
+}
+
+main,
+header,
+footer {
+  padding: var(--padding);
+}
+
+.center {
+  text-align: center;
+}

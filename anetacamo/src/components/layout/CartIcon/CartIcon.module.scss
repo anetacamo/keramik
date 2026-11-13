@@ -1,0 +1,58 @@
+.cartIcon {
+  position: relative;
+  display: inline-block;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0);
+
+    [data-theme="dark"] & {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.popover {
+  --popover-top: 0px;
+  --popover-left: 0px;
+  position: fixed;
+  top: var(--popover-top);
+  left: var(--popover-left);
+  transform: translateX(-50%);
+  z-index: 1000;
+  min-width: 170px;
+  background: black;
+  color: white;
+  padding: var(--space-lg) var(--space-xl);
+  border-radius: var(--border-radius);
+  box-shadow: 0 var(--space) var(--space-xl) color-mix(in srgb, black 35%, transparent);
+  pointer-events: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: var(--space-lg);
+  height: var(--space-lg);
+  background: black;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.row {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xl);
+
+  + .row {
+    margin-top: var(--space-sm);
+  }
+}

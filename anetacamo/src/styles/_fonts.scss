@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Violet Sans";
+  src:
+    url("../fonts/violet-sans/VioletSans-Regular.woff2") format("woff2"),
+    url("../fonts/violet-sans/VioletSans-Regular.woff") format("woff");
+  //Shows fallback text immediately, then swaps in the custom font when it loads.
+  font-display: swap;
+}
+
+html {
+  font-size: var(--font-size);
+  font-family: var(--font);
+  letter-spacing: var(--letter-spacing);
+  font-weight: var(--font-weight);
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  //It reduces “pixelated” or heavy-looking font edges
+  -webkit-font-smoothing: antialiased;
+  //Works on Firefox on macOS
+  //Forces text rendering in grayscale mode instead of subpixel rendering
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  line-height: 1.4;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font);
+  font-weight: var(--font-weight);
+  color: var(--text);
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--font);
+  //background-color: $pink;
+  //font-weight: 900;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--blue);
+  }
+}
+
+a,
+a *,
+img {
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.bolded,
+strong {
+  font-weight: 900;
+}
+
+li {
+  list-style: none;
+}

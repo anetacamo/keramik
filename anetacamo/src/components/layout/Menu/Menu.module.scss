@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightMenu {
+  display: flex;
+  gap: var(--space);
+  align-items: flex-start;
+}
+
+.middleNav {
+  display: flex;
+  gap: var(--space);
+}

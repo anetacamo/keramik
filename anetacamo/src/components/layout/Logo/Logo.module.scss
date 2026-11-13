@@ -1,0 +1,8 @@
+.logo {
+  height: var(--logo-height);
+  cursor: pointer;
+
+  [data-theme="dark"] & {
+    filter: invert(1);
+  }
+}

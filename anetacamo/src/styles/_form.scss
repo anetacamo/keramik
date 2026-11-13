@@ -1,0 +1,30 @@
+input,
+textarea,
+select {
+  box-sizing: border-box;
+  padding: var(--space-lg);
+  border: 2px solid var(--pink);
+  color: var(--pink);
+  background-color: transparent;
+  font-size: var(--font-size);
+  font-family: var(--font);
+  letter-spacing: var(--letter-spacing);
+  min-width: 240px;
+  width: 100%;
+  &:focus-visible,
+  &:focus {
+    background-color: var(--gray);
+    border: 2px solid transparent;
+    transition-duration: 350ms;
+    outline: none;
+  }
+  &:valid {
+    position: relative;
+    &:after {
+      content: "✓";
+      position: absolute;
+      right: 8px;
+      color: var(--blue);
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.themeIcon {
+  filter: grayscale(1) brightness(0);
+  [data-theme="dark"] & {
+    filter: grayscale(1) brightness(0) invert(1);
+  }
+}
